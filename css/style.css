@@ -74,6 +74,7 @@ img {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+  max-width: 1600px;
 }
 .logo {
   text-decoration: none;
@@ -204,6 +205,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  max-width: 1600px;
 }
 
 .hero-title {
@@ -355,7 +357,7 @@ img {
 }
 
 .icon-link:hover,
-.icon-item:focus {
+.icon-link:focus {
   background-color: var(--bgd-blue);
   fill: var(--txt-white);
 }
@@ -417,10 +419,10 @@ img {
   fill: var(--clr-icon);
 }
 
-.client-link:focus,
-.client-link:hover {
+.client-link:hover,
+.client-link:focus {
   fill: var(--bgd-blue);
-  border-color: var(--bgd-blue);
+  border: 1px solid var(--txt-blue);
 }
 
 .client-icon {
@@ -437,10 +439,12 @@ img {
 }
 .footer-section {
   display: flex;
+  align-items: baseline;
 }
 
 .ftr-left {
   margin-right: 70px;
+  align-items: baseline;
 }
 
 .address {
