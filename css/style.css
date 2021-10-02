@@ -74,7 +74,6 @@ img {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-  max-width: 1600px;
 }
 .logo {
   text-decoration: none;
@@ -192,6 +191,9 @@ img {
 }
 
 /* Main Studio */
+.main-studio {
+  max-width: 1600px;
+}
 
 .hero-section {
   background-color: var(--bgd-very-dark-grayish-blue);
